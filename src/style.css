@@ -27,9 +27,6 @@ html {
   color: #ffffff;
 }
 
-button:focus {
-  box-shadow: none !important;
-}
 
 /* --------- */
 /*  Preloader */

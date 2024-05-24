@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/SVG/rohan_img.svg";
 import About from "../../../src/components/About/About"
 import Footer from "../Footer";
 import Particle from "../Particle";
@@ -38,12 +38,12 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              {/* <img
+              <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid "
-                style={{ maxHeight: "450px" }} */}
-              {/* /> */}
+                style={{ maxHeight: "400px" }} 
+              />
               {/* <Profile/> */}
             </Col>
           </Row>
