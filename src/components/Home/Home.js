@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import About from "../../../src/components/About/About"
 import Footer from "../Footer";
 import Particle from "../Particle";
-import personalimg from '../../Assets/ROHAN HOval.gif';
+import personalimg from '../../Assets/ROHAN HOval 1.gif';
 import Projects from "../Projects/Projects";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -16,7 +16,7 @@ function Home() {
     <section>
       <img
         src={personalimg}
-        style={{height:950}}
+        style={{height:750}}
         className="landing_page"
         />
       {/* <Socialicons/> */}
