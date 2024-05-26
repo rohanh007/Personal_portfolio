@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/SVG/rohan_img.svg";
+
 import About from "../../../src/components/About/About"
 import Footer from "../Footer";
 import Particle from "../Particle";
+import personalimg from '../../Assets/ROHAN HOval.gif';
 import Projects from "../Projects/Projects";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -13,12 +14,19 @@ import Profile from "./Profile";
 function Home() {
   return (
     <section>
-      <Socialicons/>
-      <Container fluid className="home-section" id="home">
+      <img
+        src={personalimg}
+        style={{height:950}}
+        className="landing_page"
+        />
+      {/* <Socialicons/> */}
+      {/* <Container fluid className="home-section" id="home"> */}
+        
+
       
         {/* <Particle /> */}
-        <Container className="home-content">
-          <Row>
+        {/* <Container className="home-content"> */}
+          {/* <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading web-text-color">
                 Hello It's me{" "}
@@ -45,10 +53,10 @@ function Home() {
                 style={{ maxHeight: "400px" }} 
               />
               {/* <Profile/> */}
-            </Col>
-          </Row>
-        </Container>
-      </Container>
+            {/* </Col>
+          </Row> } */}
+        {/* </Container> */}
+      {/* </Container> */}
     
       <Home2 />
       <About/>

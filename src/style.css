@@ -367,14 +367,16 @@ figure{
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
-  height: 802px;
+  height:950px;
+  width: 100%;
 }
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
+  padding-top: 160px !important;
   padding-bottom: 20px !important;
   text-align: center;
+  
 }
 
 .home-about-body {
@@ -385,7 +387,7 @@ figure{
 
 .home-about-social {
   text-align: center !important;
-  padding-top: 25px;
+  padding-top: 210px;
   color: white !important;
 }
 
@@ -609,7 +611,7 @@ article:has(:hover, :focus) {
 
 .social-menu ul{
   position: absolute;
-  bottom:2%;
+  bottom:10%;
   left: 50%;
   padding: 0;
   margin: 0;
@@ -622,16 +624,19 @@ article:has(:hover, :focus) {
   margin: 0 15px;
 }
 
-.social-menu ul li .fab{
+.social-menu ul li{
   font-size: 30px;
   line-height: 60px;
   transition: .3s;
   color: #000;
-  margin-top: 11px;
+  margin-top: 0px;
   
 }
+.fab{
+  margin-top: -10px;
+}
 
-.social-menu ul li a .fab:hover{
+.social-menu ul li a:hover{
   color: #fff;
 }
 

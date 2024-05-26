@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="orangered">Rohan Hoval </span>
             from <span className="orangered"> Pune, India.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently employed as a software developer at Symbiosis.
             <br />
             I have completed BTech in Information Technology  at D.Y.Patil College of Engineering 
             Akurdi.

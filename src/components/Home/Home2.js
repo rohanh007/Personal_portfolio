@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
+import profile from "../../Assets/bestprofile.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -25,7 +26,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> C++, Javascript and Python. </b>
               </i>
               <br />
               <br />
@@ -34,7 +35,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  Data Science.
                 </b>
               </i>
               <br />
@@ -49,14 +50,14 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js , Next.js and NoSQL Database like MongoDB</b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+            <div className="profile_card">
+              <img className="cardimg" src={profile} alt=""/>
+            </div>
           </Col>
         </Row>
         <Row>

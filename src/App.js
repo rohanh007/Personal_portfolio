@@ -14,6 +14,7 @@ import {
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
+import './mystyle.css';
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Contactme from "./components/Contact/Contactme";
