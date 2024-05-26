@@ -1,8 +1,8 @@
 html {
   --section-background-color: linear-gradient(
-    to bottom left,
-    rgb(165, 201, 202),
-    rgb(165, 201, 202)
+    to bottom right,
+    #fffad6,
+    rgba(190,210,104,255)
   );
 
   --image-gradient: linear-gradient(
@@ -353,7 +353,7 @@ figure{
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 8em !important;
 }
 
 @media (max-width: 767px) {
@@ -367,12 +367,12 @@ figure{
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
-  height:950px;
+  height:910px;
   width: 100%;
 }
 
 .home-about-description {
-  color: white !important;
+  color: rgb(12, 12, 12) !important;
   padding-top: 160px !important;
   padding-bottom: 20px !important;
   text-align: center;
@@ -387,8 +387,8 @@ figure{
 
 .home-about-social {
   text-align: center !important;
-  padding-top: 210px;
-  color: white !important;
+  padding-top: 150px;
+  color: rgb(14, 13, 13) !important;
 }
 
 .home-about-social-links {
