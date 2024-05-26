@@ -1,9 +1,9 @@
 html {
   --section-background-color: linear-gradient(
-    to bottom right,
-    #fffad6,
-    rgba(190,210,104,255)
-  );
+    to right,
+    #eeecec,
+    #fdfdfd
+     );
 
   --image-gradient: linear-gradient(
     to bottom left,
@@ -24,7 +24,7 @@ html {
   background-color:orangered ;
 }
 .web-text-color{
-  color: #ffffff;
+  color: #008080 ;
 }
 
 
@@ -373,7 +373,7 @@ figure{
 
 .home-about-description {
   color: rgb(12, 12, 12) !important;
-  padding-top: 160px !important;
+  padding-top: 140px !important;
   padding-bottom: 20px !important;
   text-align: center;
   

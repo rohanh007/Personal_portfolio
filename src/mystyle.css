@@ -57,7 +57,7 @@
   .menu_box{
     background-color: rgba(0, 0, 0, 0.682);
     width: 300px;
-    height: 500px;
+    height: 400px;
     border-radius: 5px;
   }
   .close_cross{
@@ -69,17 +69,27 @@
     list-style: none;
     /* display: flex; */
     margin-top: 50px;
+    margin-left: -90px;
+    padding-top: 60px;
     
   }
+ 
   
   .navbar-links li {
     margin-right: 80px;
+    padding-bottom: 15px;
+  }
+  .navbar-links li a:hover{
+    border-bottom-style: solid;
+    border-width: 4px;
+    border-color: rgb(254, 254, 254);
   }
   
   .navbar-links li a {
     color:rgb(255, 253, 253);
     text-decoration: none;
   }
+ 
   
   @media (max-width: 768px) {
     .navbar-links {
@@ -94,4 +104,31 @@
       display: block;
     }
   }
+
+
+  /* Buttons */
+
+  
+  .github-button,
+  .demo-button {
+    background-color: #007bff; /* Blue color for GitHub button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    /* text-decoration: none; */
+  }
+  
+  .demo-button {
+    background-color: #28a745; /* Green color for Demo button */
+  }
+  
+  .github-button:hover,
+  .demo-button:hover {
+    opacity: 0.8;
+    color: white;
+  }
+  
   
