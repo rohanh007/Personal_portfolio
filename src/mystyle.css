@@ -114,26 +114,42 @@
   .github-button,
   .demo-button {
     background-color: #eeecec; /* Blue color for GitHub button */
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 10px 20px;
     margin-right: 10px;
     cursor: pointer;
     border-radius: 10px;
-    /* text-decoration: none; */
+    text-decoration: none;
   }
   
   .demo-button {
     background-color: #008080;
+    color: white;
   }
-  .github-button:hover{
+  /* .github-button:hover{
     background-color: #008080;
-  }
+  } */
   
-  .demo-button:hover {
+  /* .demo-button:hover {
     opacity: 0.8;
     color: rgb(0, 0, 0);
     background-color: #eeecec;;
+  } */
+  
+
+  /* Contact Form/ */
+
+
+.contact_form{
+   height: 100%;
+   width: 80%;
+   margin-left: 10%;
+   margin-top: 4%;
+   padding-top: 20px;
   }
-  
-  
+
+
+.contact-form-label{
+   margin-left: -260px;
+}

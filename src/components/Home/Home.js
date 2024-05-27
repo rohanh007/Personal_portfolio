@@ -10,6 +10,7 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import Socialicons from "../Socialicons";
 import Profile from "./Profile";
+import Contactme from "../Contact/Contactme";
 
 function Home() {
   return (
@@ -61,6 +62,7 @@ function Home() {
       <Home2 />
       <About/>
       <Projects/>
+      <Contactme/>
     </section>
   );
 }
