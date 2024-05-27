@@ -7,9 +7,9 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify"}} className="web-text-color">
-            Hi Everyone, I am <span className="orangered">Rohan Hoval </span>
-            from <span className="orangered"> Pune, India.</span>
+          <p style={{ textAlign: "justify"}} className="web-text-color web_white_color">
+            Hi Everyone, I am <span className="web-text-color">Rohan Hoval </span>
+            from <span className="web-text-color"> Pune, India.</span>
             <br />
             I am currently employed as a software developer at Symbiosis.
             <br />
@@ -20,18 +20,18 @@ function AboutCard() {
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
+            <li className="about-activity" style={{"color":"black"}}>
+              <ImPointRight color="black"/> Playing Games
             </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+            <li className="about-activity" style={{"color":"black"}}>
+              <ImPointRight color="black"/> Writing Tech Blogs
             </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
+            <li className="about-activity" style={{"color":"black"}}>
+              <ImPointRight color="black"/> Travelling
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "rgb(0,128,128)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
           <footer className="blockquote-footer">Rohan Hoval</footer>

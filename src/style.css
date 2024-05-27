@@ -26,6 +26,9 @@ html {
 .web-text-color{
   color: #008080 ;
 }
+.web_white_color{
+  color: rgb(0, 0, 0);
+}
 
 
 /* --------- */
