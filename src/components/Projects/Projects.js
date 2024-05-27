@@ -24,13 +24,13 @@ const  Projects=()=>{
                 <img src="https://picsum.photos/id/1011/800/450" alt="" />
               </figure>
               <div className="article-body">
-                <h2>This is some title</h2>
+                <h2>This is some title rgetb</h2>
                 <p>
                   Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
                 </p>
-                <div class="button-wrapper">
-                  <a href="https://github.com/your-github-project" target="_blank" class="github-button">GitHub</a>
-                  <a href="https://yourproject.com" target="_blank" class="demo-button">Live Demo</a>
+                <div class="button-wrapper"  >
+                  <a href="https://github.com/your-github-project" target="_blank" class="github-button" onMouseOver={(e) => { e.stopPropagation() }}>GitHub</a>
+                  <a href="https://yourproject.com" target="_blank" class="demo-button"  onMouseOver={(e) => { e.preventDefault() }}>Live Demo</a>
                 </div>
               </div>
             </div>
@@ -79,7 +79,7 @@ const  Projects=()=>{
                 <p>
                   Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
                 </p>
-                <div class="button-wrapper">
+                <div class="button-wrapper" >
                   <a href="https://github.com/your-github-project" target="_blank" class="github-button">GitHub</a>
                   <a href="https://yourproject.com" target="_blank" class="demo-button">Live Demo</a>
                 </div>
@@ -113,7 +113,7 @@ const  Projects=()=>{
                 <p>
                   Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
                 </p>
-                <div class="button-wrapper">
+                <div class="button-wrapper" onMouseOver={(e)=>e.stopPropagation()}>
                   <a href="https://github.com/your-github-project" target="_blank" class="github-button">GitHub</a>
                   <a href="https://yourproject.com" target="_blank" class="demo-button">Live Demo</a>
                 </div>

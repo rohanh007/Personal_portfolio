@@ -16,7 +16,7 @@ function Home() {
     <section>
       <img
         src={personalimg}
-        style={{height:750}}
+        style={{height:780}}
         className="landing_page"
         />
       {/* <Socialicons/> */}
