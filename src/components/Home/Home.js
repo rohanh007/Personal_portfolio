@@ -15,11 +15,14 @@ import Contactme from "../Contact/Contactme";
 function Home() {
   return (
     <section>
+      <div >
       <img
         src={personalimg}
-        style={{height:780}}
+        style={{height: '100vh', 
+        boxShadow: 'inset 0 10px 10px -10px rgba(0, 0, 0, 0.5)'}}
         className="landing_page"
         />
+        </div>
       {/* <Socialicons/> */}
       {/* <Container fluid className="home-section" id="home"> */}
         
@@ -59,7 +62,7 @@ function Home() {
         {/* </Container> */}
       {/* </Container> */}
     
-      <Home2 />
+      <Home2  data-speed={2}/>
       <About/>
       <Projects/>
       <Contactme/>

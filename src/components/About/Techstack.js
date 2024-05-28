@@ -38,48 +38,53 @@ import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+    <Row style={{ justifyContent: "center", paddingBottom: "50px",  }}>
+        <h1 className="project-heading web-text-color web_white_color">
+          Professional <strong className="web-text-color">Skillset </strong>
+        </h1>
+       <Col md={1}></Col>
+      <Col xs={3} md={1} className="tech-icons">
         {/* <CgCPlusPlus /> */}
         <img src={cplusplus}/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={3} md={1} className="tech-icons">
       <img src={javascript}/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={3} md={1} className="tech-icons">
       <img src={typescript}/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={3} md={1} className="tech-icons">
       <img src={nodejs}/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
       <img src={express}/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
       <img src={ract}/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
       <img src={mysql}/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
       <img src={redux}/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
       <img src={tailwindcss}/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col md={1}></Col>
+      <Col xs={4} md={1} className="tech-icons">
       <img src={mongodb}/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
       <img src={mongoose}/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
       <img src={npm}/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
       <img src={jest}/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
       <img src={github}/>
       </Col>
     </Row>

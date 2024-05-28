@@ -62,8 +62,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
+            <p className="web_white_color" style={{fontSize:'20px'}}>
               Feel free to <span className="web-text-color">connect </span>with me
             </p>
              <Socialiconfixed/>

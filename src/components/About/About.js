@@ -34,16 +34,15 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading web-text-color web_white_color">
-          Professional <strong className="web-text-color">Skillset </strong>
-        </h1>
-
+       <div className="techstack_container">
         <Techstack />
-
         <h1 className="project-heading  web_white_color">
           <strong className="web-text-color">Tools</strong> I use
         </h1>
         <Toolstack />
+        </div>
+
+        
 
         {/* <Github /> */}
       </Container>

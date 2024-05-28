@@ -31,11 +31,19 @@
   <meta name="twitter:description" content="Self Developed personal website build with React.js">
   <meta name="twitter:image"
     content="https://raw.githubusercontent.com/soumyajit4419/Portfolio/master/Images/readme-img.png?token=AK7VCIF5RYEUZZAURELPTAC76U6AK">
-</head>
+   <style>
+    .scroll{
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    scroll-behavior:unset;
+    }
+   </style>
+  </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
+  <div id="root"class="scroll" ></div>
 </body>
 
 </html>
