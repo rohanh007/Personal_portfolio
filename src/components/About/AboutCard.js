@@ -21,10 +21,10 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity" style={{"color":"black"}}>
-              <ImPointRight color="black"/> Playing Games
+              <ImPointRight color="black"/> Playing Chess
             </li>
             <li className="about-activity" style={{"color":"black"}}>
-              <ImPointRight color="black"/> Writing Tech Blogs
+              <ImPointRight color="black"/> Reading Books 
             </li>
             <li className="about-activity" style={{"color":"black"}}>
               <ImPointRight color="black"/> Travelling

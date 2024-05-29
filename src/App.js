@@ -22,6 +22,12 @@ import Contactme from "./components/Contact/Contactme";
 
 function App() {
   const [load, upadateLoad] = useState(true);
+  const [currentpage ,setcurrentpage]=useState('home');
+
+  const handleonclickpage=(page)=>{
+    setcurrentpage(page);
+  }
+
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -37,10 +43,12 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         {/* <Navbar /> */}
         
-        <Mynavabar/>
+        <Mynavabar  onclickmenu={handleonclickpage}/>
         
            
         <ScrollToTop />
+        {currentpage==='home' && <Home/>}
+        {currentpage==='projects' && <Projects/>}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
@@ -48,7 +56,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contactme />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );

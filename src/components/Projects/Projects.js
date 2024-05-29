@@ -3,6 +3,10 @@ import { useEffect } from "react";
 import { FaGithub } from "react-icons/fa";
 import { Container, Row, Col, Button } from "react-bootstrap";
 // import ProjectCard from "./ProjectCards";
+import swiggyimg from '../../Assets/Projects/swiggy_poster.png';
+import cooking_blog from '../../Assets/Projects/cooking_blogs.jpg';
+import technews from '../../Assets/Projects/new_technews.avif';
+
 import Particle from "../Particle";
 
 const  Projects=()=>{
@@ -21,10 +25,10 @@ const  Projects=()=>{
           <article>
             <div className="article-wrapper">
               <figure>
-                <img src="https://picsum.photos/id/1011/800/450" alt="" />
+                <img src={swiggyimg} alt="" />
               </figure>
               <div className="article-body">
-                <h2>This is some title rgetb</h2>
+                <h2>Swiggy Clone</h2>
                 <p>
                   Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
                 </p>
@@ -38,7 +42,7 @@ const  Projects=()=>{
           <article>
             <div className="article-wrapper">
               <figure>
-                <img src="https://picsum.photos/id/1005/800/450" alt="" />
+                <img src={cooking_blog} alt="" />
               </figure>
               <div className="article-body">
                 <h2>This is some title</h2>
@@ -55,7 +59,7 @@ const  Projects=()=>{
           <article>
             <div className="article-wrapper">
               <figure>
-                <img src="https://picsum.photos/id/103/800/450" alt="" />
+                <img src={technews} alt="" />
               </figure>
               <div className="article-body">
                 <h2>This is some title</h2>
@@ -68,8 +72,8 @@ const  Projects=()=>{
                 </div>
               </div>
             </div>
-          </article>
-          <article>
+           </article>
+          {/* <article>
             <div className="article-wrapper">
               <figure>
                 <img src="https://picsum.photos/id/103/800/450" alt="" />
@@ -119,7 +123,7 @@ const  Projects=()=>{
                 </div>
               </div>
             </div>
-          </article>
+          </article> */} 
 
 
         </section>
