@@ -1,0 +1,48 @@
+/* For mobile phones */
+@media (max-width: 767px) {
+    .landing_page{
+        height: 50vh;
+        /* width: 100%; */
+    }
+    .home-about-section{
+    padding-top: 0px;
+    height:100%;
+
+    }
+    .home-about-social{
+      padding-top: 100px;
+    }
+  }
+  
+  /* For tablets */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .landing_page{
+      height: 70vh;
+    }
+    .home-about-section{
+      padding-top: 0px;
+      height:100%;
+  
+      }
+      .home-about-social{
+        padding-top: 100px;
+      }
+  }
+  
+  /* For laptops and desktops */
+  @media (min-width: 1025px) {
+    .landing_page{
+      height: 80vh;
+    }
+  }
+  
+  /* For 13-inch laptops */
+  @media (min-width: 1025px) and (max-width: 1440px) {
+    .landing_page{
+      .landing_page{
+        height: 90vh;
+      }
+    }
+  }
+ 
+  

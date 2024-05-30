@@ -4,7 +4,7 @@ import { Last } from 'react-bootstrap/esm/PageItem';
 const Contactme = () => {
     return (
         <section>
-            <Container className="contact_me_scroll">
+            <Container className="contact_me_scroll" id="contactme">
             <h1 className="project-heading">
               <strong className="web-text-color">Contact Me </strong>
         </h1>

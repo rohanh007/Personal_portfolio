@@ -38,7 +38,7 @@ import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px",  }}>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px",  }} id="techonology">
         <h1 className="project-heading web-text-color web_white_color">
           Professional <strong className="web-text-color">Skillset </strong>
         </h1>

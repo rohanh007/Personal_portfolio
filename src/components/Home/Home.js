@@ -11,14 +11,16 @@ import Type from "./Type";
 import Socialicons from "../Socialicons";
 import Profile from "./Profile";
 import Contactme from "../Contact/Contactme";
+import Mynavabar from "../Mynavabar";
 
 function Home() {
   return (
-    <section>
+    <section id="home">
       <div >
+      
       <img
         src={personalimg}
-        style={{height: '100vh', 
+        style={{
         boxShadow: 'inset 0 10px 10px -10px rgba(0, 0, 0, 0.5)'}}
         className="landing_page"
         />
@@ -62,10 +64,6 @@ function Home() {
         {/* </Container> */}
       {/* </Container> */}
     
-      <Home2  data-speed={2}/>
-      <About/>
-      <Projects/>
-      <Contactme/>
     </section>
   );
 }

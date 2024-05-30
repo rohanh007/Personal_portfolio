@@ -12,7 +12,7 @@ import Particle from "../Particle";
 const  Projects=()=>{
   
   return (
-    <Container fluid className="project-section">
+    <Container fluid className="project-section" id="project">
       {/* <Particle /> */}
       <Container>
         <h1 className="project-heading">
