@@ -20,7 +20,7 @@ function Home() {
       
       <img
         src={personalimg}
-        style={{
+        style={{ height:'100vh',
         boxShadow: 'inset 0 10px 10px -10px rgba(0, 0, 0, 0.5)'}}
         className="landing_page"
         />

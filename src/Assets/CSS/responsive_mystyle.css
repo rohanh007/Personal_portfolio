@@ -1,6 +1,6 @@
 /* For mobile phones */
 @media (max-width: 767px) {
-    .landing_page{
+    .landing_page img{
         height: 50vh;
         /* width: 100%; */
     }
@@ -16,7 +16,7 @@
   
   /* For tablets */
   @media (min-width: 768px) and (max-width: 1024px) {
-    .landing_page{
+    .landing_page img{
       height: 70vh;
     }
     .home-about-section{
@@ -31,17 +31,16 @@
   
   /* For laptops and desktops */
   @media (min-width: 1025px) {
-    .landing_page{
+    .landing_page img{
       height: 80vh;
     }
   }
   
   /* For 13-inch laptops */
   @media (min-width: 1025px) and (max-width: 1440px) {
-    .landing_page{
-      .landing_page{
+    .landing_page img{
         height: 90vh;
-      }
+      
     }
   }
  
