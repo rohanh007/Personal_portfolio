@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
-import profile from "../../Assets/aboutprofile.jpg";
+import profile from "../../Assets/about_profile_png.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -15,8 +15,8 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col md={6} className="home-about-description">
+        <div className="home_about_row">
+          <div className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="web-text-color"> INTRODUCE </span> MYSELF
             </h1>
@@ -53,21 +53,18 @@ function Home2() {
                 <b className="web-text-color"> React.js , Next.js and NoSQL Database like MongoDB</b>
               </i>
             </p>
-          </Col>
-          <Col md={6} className="myAvtar">
+          </div>
+          <div  className="myAvtar">
             <div className="profile_card">
               <img className="cardimg" src={profile} alt=""/>
             </div>
-          </Col>
-        </Row>
+          </div>
+        </div>
         <Row>
           
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <p className="web_white_color" style={{fontSize:'20px'}}>
-              Feel free to <span className="web-text-color">connect </span>with me
-            </p>
              <Socialiconfixed/>
           </Col>
         </Row>

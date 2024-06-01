@@ -16,11 +16,11 @@ import Mynavabar from "../Mynavabar";
 function Home() {
   return (
     <section id="home">
-      <div >
+      <div className="landing_height" >
       
       <img
         src={personalimg}
-        style={{ height:'100vh',
+        style={{
         boxShadow: 'inset 0 10px 10px -10px rgba(0, 0, 0, 0.5)'}}
         className="landing_page"
         />

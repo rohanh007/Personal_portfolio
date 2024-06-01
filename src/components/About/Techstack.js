@@ -16,26 +16,6 @@ import jest from '../../Assets/SVG/jest-plain.svg';
 import github from '../../Assets/SVG/github-original.svg';
 
 
-import { CgCPlusPlus } from "react-icons/cg";
-
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
-
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px",  }} id="techonology">
@@ -72,19 +52,19 @@ function Techstack() {
       <img src={tailwindcss}/>
       </Col>
       <Col md={1}></Col>
-      <Col xs={4} md={1} className="tech-icons">
+      <Col xs={3} md={1} className="tech-icons">
       <img src={mongodb}/>
       </Col>
-      <Col xs={4} md={1} className="tech-icons">
+      <Col xs={3} md={1} className="tech-icons">
       <img src={mongoose}/>
       </Col>
-      <Col xs={4} md={1} className="tech-icons">
+      <Col xs={3} md={1} className="tech-icons">
       <img src={npm}/>
       </Col>
-      <Col xs={4} md={1} className="tech-icons">
+      <Col xs={3} md={1} className="tech-icons">
       <img src={jest}/>
       </Col>
-      <Col xs={4} md={1} className="tech-icons">
+      <Col xs={3} md={1} className="tech-icons">
       <img src={github}/>
       </Col>
     </Row>
