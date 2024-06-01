@@ -562,8 +562,8 @@ article a::after {
   position: absolute;
   inset-block: 0;
   inset-inline: 0;
-  cursor: pointer;
-  content: "";
+  /* cursor: pointer; */
+  /* content: ""; */
 }
 
 /* basic article elements styling */
@@ -682,13 +682,13 @@ article:has(:hover, :focus) {
   background-color: rgba(0, 0, 0, 0.829);
 }
 .social-menu ul li:nth-child(2) a:hover{
-  background-color: #E4405F;
-}
-.social-menu ul li:nth-child(3) a:hover{
   background-color: #0077b5;
 }
+.social-menu ul li:nth-child(3) a:hover{
+  background-color: #fc9002;
+}
 .social-menu ul li:nth-child(4) a:hover{
-  background-color: #000;
+  background-color: #fc9002;
 }
 
 
